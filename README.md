@@ -91,8 +91,7 @@ After installing, click on the extension icon in the Chrome toolbar to enable/di
 
 ### Video
 
-[Add your demo video link here](demo.mp4)
-*Watch us interrupt a productive work session with Pinne-Cheyyam!*
+[Watch the deko on Google Drive]([https://drive.google.com/file/d/FILE_ID/view](https://drive.google.com/file/d/13k18BbFC8q0gVqYdLCSxJ4If_Qx3cWm2/view?usp=sharing))
 
 ### Additional Demos
 
