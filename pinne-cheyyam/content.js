@@ -197,8 +197,8 @@ function createOverlay(distractingSites) {
         <div class="target-text">${randomSentence}</div>
         <textarea class="input-area" placeholder="Type the sentence here..." rows="3"></textarea>
         <button id="check-button">Check Sentence</button>
-        <div class="error-text"></div>
-        <div class="success-text"></div>
+        <h2 class="error-text"></h2>
+        <h2 class="success-text"></h2>
       </div>
     </div>
   `;
@@ -264,8 +264,8 @@ function restoreOverlay() {
         <div class="target-text">${randomSentence}</div>
         <textarea class="input-area" placeholder="Type the sentence here..." rows="3"></textarea>
         <button id="check-button">Check Sentence</button>
-        <div class="error-text"></div>
-        <div class="success-text"></div>
+        <h2 class="error-text"></h2>
+        <h2 class="success-text"></h2>
       </div>
     </div>
   `;
