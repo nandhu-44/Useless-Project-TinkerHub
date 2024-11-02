@@ -70,14 +70,14 @@ After installing, click on the extension icon in the Chrome toolbar to enable/di
 
 ### Screenshots (A Glimpse into the Uselessness)
 
-![Popup Interface](demo\images\extension.png)
+![Popup Interface](demo/images/extension.png)
 *Our sleek popup interface with 'Start Annoying' button – because why not?*
 
-![Options Page](demo\images\settings.png)
+![Options Page](demo/images/settings.png)
 *Manage your productive and distracting sites. Personalize your path to procrastination!*
 
-![Quiz Distraction](demo\images\success.png)
-![Quiz Distraction](demo\images\copy_paste.png)
+![Quiz Distraction](demo/images/success.png)
+![Quiz Distraction](demo/images/copy_paste.png)
 *Type the random sentence letter by letter without any cheap tricks to "unlock" ?*
 
 <!-- ### Diagrams
