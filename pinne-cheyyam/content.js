@@ -298,7 +298,7 @@ function checkSentence() {
 
   const userInput = inputArea.value.trim();
   if (userInput === randomSentence) {
-    successText.textContent = "Okay, എന്നാൽ ചെയ്തോളൂ";
+    successText.textContent = "Okay, പണി എടുത്തോ😒";
     errorText.textContent = "";
     setTimeout(() => {
       overlay.remove();
