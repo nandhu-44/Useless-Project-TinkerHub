@@ -91,7 +91,7 @@ After installing, click on the extension icon in the Chrome toolbar to enable/di
 
 ### Video
 
-[Add your demo video link here]
+[Add your demo video link here](demo/images/demo.mp4)
 *Watch us interrupt a productive work session with Pinne-Cheyyam!*
 
 ### Additional Demos
