@@ -70,14 +70,15 @@ After installing, click on the extension icon in the Chrome toolbar to enable/di
 
 ### Screenshots (A Glimpse into the Uselessness)
 
-![Popup Interface](Add screenshot 1 here)
+![Popup Interface](demo/images/extension.png)
 *Our sleek popup interface with 'Start Annoying' button – because why not?*
 
-![Options Page](Add screenshot 2 here)
+![Options Page](demo/images/settings.png)
 *Manage your productive and distracting sites. Personalize your path to procrastination!*
 
-![Quiz Distraction](Add screenshot 3 here)
-*Take a random quiz to "unlock" the website. Who needs productivity?*
+![Quiz Distraction](demo/images/success.png)
+![Quiz Distraction](demo/images/copy_paste.png)
+*Type the random sentence letter by letter without any cheap tricks to "unlock" ?*
 
 <!-- ### Diagrams
 
@@ -90,8 +91,7 @@ After installing, click on the extension icon in the Chrome toolbar to enable/di
 
 ### Video
 
-[Add your demo video link here]
-*Watch us interrupt a productive work session with Pinne-Cheyyam!*
+[Watch the demo on here](https://drive.google.com/file/d/1gxnh9sCdTn9uknkolp03Cj14UZo5vlDp/view?usp=sharing)
 
 ### Additional Demos
 
