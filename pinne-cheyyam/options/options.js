@@ -21,18 +21,46 @@ function updateSiteList(type, listId) {
   });
 }
 
+// Utility function to sanitize and format the URL
+function sanitizeURL(url) {
+  // Remove any trailing slash and path
+  try {
+    let formattedURL = url.trim();
+
+    // Add https:// if missing
+    if (!/^https?:\/\//i.test(formattedURL)) {
+      formattedURL = 'https://' + formattedURL;
+    }
+
+    const urlObj = new URL(formattedURL);
+    // Reconstruct the URL with only protocol, hostname, and port (if any)
+    formattedURL = urlObj.origin;
+
+    return formattedURL;
+  } catch (error) {
+    // If URL is invalid, return the original input
+    return url;
+  }
+}
+
 // Function to add a new site
 function addSite(type, inputId, listId) {
   const inputElement = document.getElementById(inputId);
-  const site = inputElement.value.trim();
-  if (site) {
+  const rawURL = inputElement.value.trim();
+  if (rawURL) {
+    const sanitizedURL = sanitizeURL(rawURL);
     chrome.storage.sync.get([type], (result) => {
       const sites = result[type] || [];
-      sites.push(site);
-      chrome.storage.sync.set({ [type]: sites }, () => {
-        updateSiteList(type, listId);
-        inputElement.value = '';
-      });
+      // Prevent adding duplicate entries
+      if (!sites.includes(sanitizedURL)) {
+        sites.push(sanitizedURL);
+        chrome.storage.sync.set({ [type]: sites }, () => {
+          updateSiteList(type, listId);
+          inputElement.value = '';
+        });
+      } else {
+        alert('This site is already in the list.');
+      }
     });
   }
 }
