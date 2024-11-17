@@ -1,5 +1,7 @@
 # **PinneCheyyam** 🎯
 
+> ## 🎥 [Click here for demo video](https://drive.google.com/file/d/1gxnh9sCdTn9uknkolp03Cj14UZo5vlDp/view?usp=sharing) 🎥
+
 ![readme-banner](https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c)
 
 **PinneCheyyam** is a Chrome extension crafted to help you procrastinate like a pro! Distract yourself from productive websites with random quizzes, puzzles, mini-games, and the occasional noise to ensure you stay… delightfully unproductive. 😜
@@ -14,7 +16,7 @@
 
 ### 👥 Team Members
 
-- **Team Lead:** [Nandhu Krishnan A](https://github.com/nandhu-44) - Department of Computer Science, Cusat
+- **Team Lead:** [Nandhu Krishnan A](https://github.com/nandhu-44 "⚡Nandhu ⚡") - Department of Computer Science, Cusat
 - **Member 2:** [Nazal Nihad TT](https://github.com/nazalnihad) - Department of Computer Science, Cusat
 - **Member 3:** [Jeslin P James](https://github.com/jeslinpjames) - Department of Computer Science, Cusat
 
